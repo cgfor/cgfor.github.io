@@ -1,0 +1,10 @@
+.wp {width: 100%; }
+#hd {background: #FFF;}
+#hd .wp, #wp, #toptb, #hd { min-width: 1130px; }
+#ft.wp {background: #FFF;padding: 20px 0 30px;margin-top: 20px;}
+#nv{ border:none; background-repeat: repeat-x; background-position: 0 -33px;}
+#frt{padding-left: 20px;}
+#flk {padding-right: 20px;}
+.hdc {padding: 0 20px;}
+#editnvinfo{display: none;}
+.pm_o{width: 115px;}

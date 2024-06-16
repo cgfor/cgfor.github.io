@@ -1,0 +1,10 @@
+.topnav_pop li span {display: none;}
+#toptb.v {min-width: 960px;border-bottom: none;background: #FFFFFF;line-height: 35px;padding: 10px;box-shadow: 0 0 5px rgba(0,0,0,.2);position: relative;z-index: 1;}
+#toptb a {padding: 0 6px;height: 35px;}
+#myspace_menu li a, #navs_menu li a {background-repeat: no-repeat;background-position: -200px 0;}
+.p_pop, .p_pof, .sllt {min-width: 80px;padding: 0;margin-top: 10px;}
+.p_pop a {padding: 6px 10px;}
+.px, .pt, .ps, select{border: 1px solid #DDD;background: #FFF;border-radius: 4px;-webkit-border-radius: 4px;-moz-border-radius: 4px;}
+.pn, .pnc, a.pnc{color: #444444 !important;background: #ffe366;border-radius: 4px;border: 1px solid #ffe366;box-shadow: none;}
+.pn em, .pn strong {font-weight: normal;}
+.tfm caption, .tfm th, .tfm td {padding: 10px 0;}

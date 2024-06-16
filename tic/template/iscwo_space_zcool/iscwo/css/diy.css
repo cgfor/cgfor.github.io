@@ -1,0 +1,82 @@
+html, #body {background: transparent;}
+
+#navsave a { margin-right: 2px; width: 54px; background: url({STATICURL}image/diy/cp-save.png) no-repeat 0 0; text-indent: -9999px; overflow: hidden; }
+#navcancel a { width: 27px; background: url({STATICURL}image/diy/cp-close.png) no-repeat 0 0; text-indent: -9999px; overflow: hidden; }
+#button_more { margin-right: 20px; width: 17px; height: 27px; background: url({STATICURL}image/diy/cp-more.png) no-repeat 0 0; text-indent: -9999px; overflow: hidden; }
+#preview a { margin-right: 2px; width: 43px; background: url({STATICURL}image/diy/cp-preview.png) no-repeat 0 -27px; text-indent: -9999px; overflow: hidden; }
+#preview.unusable a { background-position: 0 0; }
+#savecache a { margin-right: 2px; width: 43px; background: url({STATICURL}image/diy/cp-savecache.png) no-repeat 0 -27px; text-indent: -9999px; overflow: hidden; }
+#savecache.unusable a { background-position: 0 0; }
+#savecachemsg { float: right; padding-right: 5px; text-align: right; }
+#controlnav { padding-left: 50px; height: 46px; background: transparent url({STATICURL}image/diy/t-diy.png) no-repeat 0 100%; line-height: 35px; }
+#controlnav li { float: left; margin-top: 7px; margin-right: 5px; font-size: 14px; font-weight: 700; }
+#controlnav li a { float: left; padding: 0 15px; color: #333 !important; }
+#controlnav li.current { background: url({STATICURL}image/diy/cp-nav-active.png) no-repeat 0 0; }
+#controlnav li.current a { background: url({STATICURL}image/diy/cp-nav-active.png) no-repeat 100% -50px; }
+#controlnav li.current span { margin-right: -8px; }
+#diy_backup_tip { top: 32px; right: 55px; width: auto; line-height: 1.5; }
+#diy_backup_tip a { text-decoration: underline; }
+#controlcontent {  }
+#controlcontent li { float: left; margin-right: 4px; }
+#controlcontent li a, #controlcontent li label { float: left; width: 90px; height: 90px; text-align: center; cursor: pointer; }
+#controlcontent li a { color: #333 !important; }
+#controlcontent li img, #controlcontent li label span { display: block; margin: 7px auto 0; width: 80px; height: 60px; text-align: center; }
+#controlcontent li span { background: url({STATICURL}image/diy/cp-module-type.png) no-repeat 0 0; }
+#controlcontent li.module-html span { background-position: -80px -180px; }
+#controlcontent li.module-thread span { background-position: -80px 0; }
+#controlcontent li.module-forum span { background-position: 0 -180px; }
+#controlcontent li.module-member span { background-position: 0 -120px; }
+#controlcontent li.module-article span { background-position: -80px -120px; }
+#controlcontent li.module-attachment span { background-position: 0 -240px; }
+#controlcontent li.module-blog span { background-position: 0 -60px; }
+#controlcontent li.module-doing span { background-position: -80px -60px; }
+#contentblockclass ul li { float: none; margin: 0; }
+#contentblockclass ol { overflow: hidden; margin-bottom: 10px; padding-left: 45px; height: 60px; background: url({STATICURL}image/diy/module-html.png) no-repeat 5px 0; }
+#contentblockclass ol li { float: left; margin-right: 2px; }
+#contentblockclass li.module-html ol { border: none; background-image: url({STATICURL}image/diy/module-html.png); }
+#contentblockclass li.module-forum ol { background-image: url({STATICURL}image/diy/module-forum.png); }
+#contentblockclass li.module-space ol { background-image: url({STATICURL}image/diy/module-space.png); }
+#contentblockclass li.module-group ol { background-image: url({STATICURL}image/diy/module-group.png); }
+#contentblockclass li.module-portal ol { background-image: url({STATICURL}image/diy/module-article.png); }
+#contentblockclass li.module-member ol { background-image: url({STATICURL}image/diy/module-member.png); }
+#contentblockclass ol label { margin-top: 3px; width: 60px; height: 24px; border: 1px dotted #B6C7EC; line-height: 24px; overflow: hidden; }
+#contentblockclass ol label.hover { border-style: solid; background: none; }
+#cpfooter { padding: 0 10px 10px; border-bottom: 1px solid #FFF; }
+#cpfooter td { height: 6px; background: #FFF; line-height: 0; overflow: hidden; }
+#cpfooter td.l { width: 6px; background: url({STATICURL}image/diy/cp-nav-corner-bl.png) no-repeat 0 0; }
+#cpfooter td.c { height: 5px; border-bottom: 1px solid #CCBDCC; }
+#cpfooter td.r { width: 6px; background: url({STATICURL}image/diy/cp-nav-corner-br.png) no-repeat 0 0; }
+
+/* DIY 部分 */
+dl.diy dt { margin-top: -10px; margin-bottom: 10px; padding-bottom: 5px; border-bottom: 1px solid #CCC; line-height: 26px; }
+dl.diy dt a { }
+dl.diy dt a.activity { color: #333 !important; font-weight: 700; text-decoration: none; }
+dl.diy dl { clear: both; padding: 0 10px; }
+dl.diy dl dt { float: left; margin: 0; padding: 0; width: 5em; border: none; }
+#controlcontent #positiontable td { width: 23px; height: 12px; border: 2px solid #FFF; background: #EEE; line-height: 0; overflow: hidden; cursor: pointer; padding: 0;}
+#controlcontent #positiontable td.red{ background-color:red;}
+.color_diy { width:310px; float:left; overflow:visible;}
+.color_diy .span { float:left; display:inline; line-height:24px;}
+#controlcontent .diy li a { width: 70px; height: 70px; }
+#controlcontent .diy li a:hover { background: none; }
+#controlcontent li.thumb img { margin: 0; width: 70px; height: 70px; }
+#diyimg_prev div *, #diyimg_next div * { display: none; }
+dl.diy .pg { float: left; }
+#diyimg_prev .prev, #diyimg_next .nxt { display: block; padding: 0 !important; width: 20px; height: 70px; border: 1px solid #EEE; text-indent: -9999px; }
+#diyimg_prev .prev { margin-right: 4px; }
+#diyimg_next .prev { background: url({IMGDIR}/arw_l.gif) no-repeat 50% 50%; }
+#diyimg_next .nxt { margin: 0; background: url({IMGDIR}/arw_r.gif) no-repeat 50% 50%; }
+
+
+.config-bg-wrap embed{ width: 250px !important;height: auto !important;margin-top: 25px;}
+
+dl.diy{padding: 20px;margin-bottom: 6px;border: 1px solid #eee;border-radius: 6px;}
+
+.z.cur1{position: absolute;background: rgba(0, 0, 0, 0.38);color: #fff;padding: 10px;width: 50px;height: 50px;line-height: 55px;margin: 3px;}
+
+#currentimgdiv{position: relative;}
+#controlcontent td {padding: 5px;}
+
+#controlcontent li#ct{width: 100%;background-size: cover;min-height: 200px;border-radius: 6px;padding: 0;}
+#controlcontent li#ct a {width: 100%;height: 200px;font-size: 16px;line-height: 200px;color: #fff !important;background: rgba(0, 0, 0, 0.37);border-radius: 6px;}
+#controlcontent li#ct.diy_bg{background: url(../images/defaultbannar.png) no-repeat 50% 50%;background-size: cover;}
