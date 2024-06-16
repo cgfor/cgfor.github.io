@@ -1,0 +1,89 @@
+/* vip member center style
+==========================*/
+.table table{background-color:transparent;}
+.table th{text-align:left;}
+.table {width:100%;max-width: 100%;margin-bottom: 20px;}
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {padding:8px;line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd}
+.table > thead > tr > th {vertical-align: bottom;border-bottom: 2px solid #ddd;color:#ac6a00}
+.table > caption + thead > tr:first-child > th,
+.table > colgroup + thead > tr:first-child > th,
+.table > thead:first-child > tr:first-child > th,
+.table > caption + thead > tr:first-child > td,
+.table > colgroup + thead > tr:first-child > td,
+.table > thead:first-child > tr:first-child > td {border-top: 0}
+.table > tbody + tbody {border-top: 2px solid #ddd}
+.table .table {background-color: #fff}
+.table-striped > tbody > tr:nth-of-type(odd) {background-color:#f9f9f9}
+.table-hover > tbody > tr:hover{background-color: #f5f5f5;}
+.dl-horizontal{margin-bottom:10px}
+.dl-horizontal dd:before,
+.dl-horizontal dd:after,{display: table;content: " ";}
+.dl-horizontal dd:after{clear: both;}
+.dl-horizontal dt {float: left;width: 160px;height:35px;overflow: hidden;clear: left; text-align: right;text-overflow: ellipsis;white-space: nowrap;}
+.dl-horizontal dd {margin-left:180px;}
+
+.vipmember{}
+.vipmember span.tip{font-size:14px;color:#999;margin-left:10px}
+.vipmember .vipbtn{line-height:14px;font-size:16px}
+.vipmember .v_hd h1{padding:0 25px;line-height:78px;font-size:18px}
+
+.vipmember .v_side{width:200px;float:left;margin-right:-200px;position:relative;z-index:5}
+.vipmember .v_menu{margin:15px;border-right:1px solid #ddd;}
+.vipmember .v_menu li{line-height:35px}
+.vipmember .v_menu li a{color:#333;padding-left:30px;display:block}
+.vipmember .v_menu li a:hover{color:#999}
+.vipmember .v_menu li.active a{border-left:5px solid #f33e35;padding-left:25px;color:#f33e35;background:#fff;border-bottom:1px solid #ddd;border-top:1px solid #ddd;position:relative;width:155px}
+
+.vipmember .v_con{width:100%;float:left;}
+.vipmember .v_con .con{margin-left:200px;padding:15px 20px;min-height:400px;background:#fff;min-height:800px;}
+.vipmember .v_con h1{font-size:16px;padding-bottom:10px;margin-bottom:10px;border-bottom:1px solid #eee;font-weight:700}
+.vipmember .v_con form{margin:0px 0}
+.vipmember .v_con form lable{cursor:pointer;}
+.vipmember input[type=text],
+.vipmember input[type=password],
+.vipmember textarea{border-radius:3px;padding:3px;border:1px solid #ddd;outline-color:#aaa;width:200px;resize:none}
+.vipmember .disable{display:inline-block;width:200px;border-radius:3px;padding:3px;border:1px solid #ddd;outline-color:0;background:#eee;color:#999;cursor:no-drop !important}
+
+.vipmember .vippaycon table td{padding:8px 20px;}
+.vipmember .v_con table td em{font-size:14px}
+
+.vipmember .v_con input[type=radio]{
+border-radius:50%;min-height: 20px!important;-webkit-appearance: none;-moz-appearance: none; -ms-appearance: none; -o-appearance: none; appearance: none;
+position: relative;top:5px;width: 20px;height: 20px;-webkit-transition: all 0.15s ease-out 0;-moz-transition: all 0.15s ease-out 0;transition: all 0.15s ease-out 0; background: #fff;border:3px solid #cbd1d8;color: #fff;cursor: pointer;display: inline-block;outline: none;position: relative;margin-right: 0.5rem;z-index: 100;
+}
+.vipmember .v_con input[type=radio]:checked{background:#f00;border-color:#f00;}
+.vipmember .v_con input[type=radio]:checked::before{width:20px;height:20px;position:absolute;content:'\2714';display: inline-block;font-size:20px;text-align:center;line-height:20px;color:#fff;left:-2px;top:-5px}
+.vipmember .v_con input[type=radio]:checked::after{-webkit-animation: click-wave 0.65s;-moz-animation: click-wave 0.65s;animation: click-wave 0.65s;content:'';display: block;position: relative;z-index: 100}
+
+.vipmember .v_con .membertips{background-color:#fcfadf;padding:5px 10px;color:#ca4c0d;}
+.vipmember .membertype label{cursor:pointer;}
+.vipmember .membertype li{float:left;display:inline;margin-right:20px;text-align:center;}
+.vipmember .type{width:120px;border:1px solid #8FC31F}
+.vipmember .type p{color:#fff;background-color:#8FC31F;line-height:35px}
+.vipmember .type span{font-size:14px;display:block;padding:10px 5px}
+.vipmember .type span b{font-size:18px}
+.vipmember .type.rem{border-color:#ec6941}
+.vipmember .type.rem p{background-color:#ec6941}
+
+.vipmember .pagenavi li{float:left;display:inline;}
+.vipmember .fa-info{border:1px solid #22ac38;color:#22ac38;font-size:12px;border-radius:50%;padding:1px 5px}
+.vipmember .noticetip{font-weight:400;font-size:14px;color:#22ac38}
+
+.vipmember .course{margin:20px 0}
+.vipmember .course a{font-size:16px;font-weight:700;color:#f00;padding:5px 10px;border:2px dashed #ccc}
+.am-accordion-basic{margin:0;}
+.am-accordion-basic .am-accordion-content{font-size:14px}
+
+/*level*/
+.vipmember .levelcon{margin:20px 0 30px 0}
+
+.vipbtn{cursor:pointer;border:2px solid #f33e35;background-color:#fff;color:#f33e35;border-radius:2em;padding:5px 20px;font-size:14px;line-height:30px;-webkit-transition:.1s ease-in;transition:.1s ease-in;outline:0}
+.vipbtn:hover{background-color:#f33e35;color:#fff;}
+
+#content{margin:auto;}
+.content{height:auto;padding:10px 0;}
