@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+.jAudio { background: #fff; overflow: hidden; }
+
+/*列表*/
+.jAudio-playlist { background: #fff; padding:1px 0px 52px; }
+.jAudio-playlist-item { width:100%; height:66px; padding: 13px 44px 14px 64px; margin-top:-1px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; position:relative; }
+.jAudio-playlist-item:after { content: ""; position:absolute; bottom:0px; left:12px; right:12px; height:1px; background:#ededed; overflow:hidden; }
+.jAudio-playlist-item:last-child:after { display:none; }
+.jAudio-playlist-thumb { width:40px; height:40px; border-radius: 50%; position:absolute; left:12px; top:13px; overflow:hidden; }
+.jAudio-playlist-thumb .jAudio-playlist-details { width:40px; height:40px; display:block; border-radius:50%; -webkit-tap-highlight-color: rgba(0,0,0,0); tap-highlight-color: rgba(0,0,0,0); }
+.jAudio-playlist-thumb img { width: 40px; min-height: 40px; vertical-align:top; }
+.jAudio-playlist-meta { width:100%; overflow:hidden; }
+.jAudio-playlist-name { height:22px; line-height:22px; font-size: 16px; color:#333; font-weight:400; text-overflow:ellipsis; white-space:nowrap; overflow:hidden; }
+.jAudio-playlist-artist { height:18px; line-height:18px; font-size: 12px; color:#999; text-overflow:ellipsis; white-space:nowrap; overflow:hidden; }
+.jAudio-playlist-artist i { float:left; color:#f66; margin: 3px 3px 0px 0px; }
+.jAudio-playlist-artist em { color:#f66; }
+.jAudio-playlist-comment { display:block; width:24px; height:24px; padding: 3px; position:absolute; top:18px; right:8px; overflow:hidden; }
+.jAudio-playlist-comment i { display:block; width:22px; height:22px; line-height:22px; border:1px solid #f4f4f4; background: rgba(255,255,255,0.12); border-radius:50%; font-size:16px; color:#e4e4e4; text-align:center; }
+.jAudio-playlist-item.active { padding:13px 44px 13px 64px; background: #f55c5c; color:#fff; }
+.jAudio-playlist-item.active * { color:#fff; }
+.jAudio-playlist-item.active:after { display:none; }
+
+/*浮动菜单*/
+.jAudio_footer { width: 100%; height:52px; padding-left:52%; background: #fff; position:fixed; bottom:0px; left:0px; z-index:60; box-shadow:0 -1px 1px rgba(0,0,0,0.06); -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/*播放状态*/
+.jAudio-ui { width:50%; height:52px; padding-left:60px; position:absolute; left:0px; top:0px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; overflow:hidden; }
+.jAudio-thumb { width: 40px; height: 40px; border-radius:50%; border:1px solid #fff; position: absolute; top: 5px; left: 11px; z-index:1; background-color:rgba(0,0,0,0.04); background-size: cover; background-position: 50% 50%; pointer-events: none; }
+.jAudio-thumb-rotation { -webkit-animation: jAudio-thumb-rotation 10s linear infinite; -moz-animation: jAudio-thumb-rotation 10s linear infinite; animation: jAudio-thumb-rotation 10s linear infinite; }
+.jAudio-thumb-paused { -webkit-animation-play-state:paused; -moz-animation-play-state:paused; animation-play-state:paused; }
+.jAudio-thumb-running { -webkit-animation-play-state:running; -moz-animation-play-state:running; animation-play-state:running; }
+@-webkit-keyframes jAudio-thumb-rotation { from {-webkit-transform: rotate(0deg);} to {-webkit-transform: rotate(360deg);} }
+@-moz-keyframes jAudio-thumb-rotation { from {-moz-transform: rotate(0deg);} to {-moz-transform: rotate(360deg);} }
+@keyframes jAudio-thumb-rotation { from {transform: rotate(0deg);} to {transform: rotate(360deg);} }
+.jAudio-progress-bar { width:44px; height:44px; border-radius:50%; position:absolute; top:4px; left:10px; -webkit-tap-highlight-color:rgba(0,0,0,0); tap-highlight-color:rgba(0,0,0,0); overflow:hidden; }
+.jAudio-progress-bar-wrapper { width: 100%; position: relative; background: rgba(0,0,0,0.08); cursor: pointer; overflow: hidden; }
+.jAudio-progress-bar-played { width:0px; height: 44px; background: #f66; position: relative; }
+.jAudio-status-bar { width:100%; height:52px; }
+.jAudio-details { height:22px; padding-top:8px; line-height:22px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden; }
+.jAudio-time { height:16px; line-height:16px; color:#999; font-size:11px; }
+.jAudio-time .pipe { margin:0px 4px; }
+
+/*播放控制*/
+.jAudio-controls { width: 100%; height:52px; padding:0px 2px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.jAudio-controls li { position: relative; width: 20%; height: 52px; float: left; padding:0px 4px; text-align:center; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.jAudio-control { width: 100%; height: 52px; background: transparent; border: 0; display:block; position: relative; overflow: hidden; }
+.jAudio-control i { display:block; width:100%; height:52px; line-height:52px; position: relative; overflow: hidden; }
+.jAudio-control i:after { display: block; width:100%; height:52px; text-align:center; position: absolute; top:0px; left:0px; color:#555; font-family: "vtoo_mobile"; font-size:20px; text-shadow:0 1px 1px rgba(0,0,0,0.1); }
+.jAudio-control-play i:after { content: "\e128"; }
+.jAudio-control-pause i:after { content: "\e129"; color:#f66; }
+.jAudio-control-prev i:after { content: "\e130"; }
+.jAudio-control-next i:after { content: "\e131"; }
+.jAudio-control-prevpg i:after { content: "\e136"; font-size:20px;  /*-webkit-transform: rotateX(180deg); -moz-transform: rotateX(180deg); transform: rotateX(180deg);*/ }
+.jAudio-control-nextpg i:after { content: "\e137"; font-size:20px; }
+.jAudio-control-prevpg, .jAudio-control-nextpg { -webkit-tap-highlight-color:rgba(0,0,0,0); tap-highlight-color:rgba(0,0,0,0); }
+.jAudio-control.grey i:after { color:#ddd; text-shadow:none; }
+.jAudio-btn:active i:after { color:#f66; }

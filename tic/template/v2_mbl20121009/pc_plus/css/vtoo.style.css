@@ -1,0 +1,212 @@
+
+@font-face {
+  font-family: "vtoo_mobile"; 
+  src: url("../fonts/vtoo_mobile.eot"); 
+  src: url("../fonts/vtoo_mobile.eot#iefix") format("embedded-opentype"),
+    url("../fonts/vtoo_mobile.ttf") format("truetype"),
+    url("../fonts/vtoo_mobile.woff") format("woff"),
+    url("../fonts/vtoo_mobile.svg#vtoo_mobile") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="vt-"], [class*=" vt-"] {  
+  font-family: "vtoo_mobile" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;   
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.vt-menu:before { content: "\e001";}
+.vt-remind:before { content: "\e002";}
+.vt-camera:before { content: "\e003";}
+.vt-home:before { content: "\e004";}
+.vt-search:before { content: "\e005";}
+.vt-recadd:before { content: "\e006";}
+.vt-recsubtract:before { content: "\e007";}
+.vt-dropdown:before { content: "\e008";}
+.vt-share:before { content: "\e009";}
+.vt-left:before { content: "\e010";}
+.vt-right:before { content: "\e011";}
+.vt-up:before { content: "\e012";}
+.vt-down:before { content: "\e013";}
+.vt-user:before { content: "\e014";}
+.vt-starempty:before { content: "\e015";}
+.vt-star:before { content: "\e016";}
+.vt-heartempty:before { content: "\e017";}
+.vt-heart:before { content: "\e018";}
+.vt-forum:before { content: "\e019";}
+.vt-reply:before { content: "\e020";}
+.vt-post:before { content: "\e021";}
+.vt-roadsign:before { content: "\e022";}
+.vt-volume:before { content: "\e023";}
+.vt-cup:before { content: "\e024";}
+.vt-eye:before { content: "\e025";}
+.vt-trash:before { content: "\e026";}
+.vt-pencil:before { content: "\e027";}
+.vt-clip:before { content: "\e028";}
+.vt-tag:before { content: "\e029";}
+.vt-emojis:before { content: "\e030";}
+.vt-play:before { content: "\e031";}
+.vt-stop:before { content: "\e032";}
+.vt-music:before { content: "\e033";}
+.vt-close:before { content: "\e034";}
+.vt-plus:before { content: "\e035";}
+.vt-download:before { content: "\e036";}
+.vt-cd:before { content: "\e037";}
+.vt-loading:before { content: "\e038";}
+.vt-pageicon:before { content: "\e039";}
+.vt-pagelist:before { content: "\e040";}
+.vt-top:before { content: "\e041";}
+.vt-poll:before { content: "\e042";}
+.vt-trade:before { content: "\e043";}
+.vt-reward:before { content: "\e044";}
+.vt-activity:before { content: "\e045";}
+.vt-debate:before { content: "\e046";}
+.vt-lock:before { content: "\e047";}
+.vt-fav:before { content: "\e048";}
+.vt-favempty:before { content: "\e049";}
+.vt-manage:before { content: "\e050";}
+.vt-rate:before { content: "\e051";}
+.vt-edit:before { content: "\e052";}
+.vt-picture:before { content: "\e053";}
+.vt-at:before { content: "\e054";}
+.vt-boy:before { content: "\e055";}
+.vt-girl:before { content: "\e056";}
+.vt-position:before { content: "\e057";}
+.vt-menu-ia:before { content: "\e058";}
+.vt-menu-ib:before { content: "\e059";}
+.vt-wechat:before { content: "\e060";}
+.vt-moments:before { content: "\e061";}
+.vt-qq:before { content: "\e062";}
+.vt-qzone:before { content: "\e063";}
+.vt-weibo:before { content: "\e064";}
+.vt-muser:before { content: "\e065";}
+.vt-mpassword:before { content: "\e066";}
+.vt-memail:before { content: "\e067";}
+.vt-email:before { content: "\e068";}
+.vt-friend:before { content: "\e069";}
+.vt-trends:before { content: "\e070";}
+.vt-blog:before { content: "\e071";}
+.vt-blogs:before { content: "\e072";}
+.vt-talk:before { content: "\e073";}
+.vt-album:before { content: "\e074";}
+.vt-medal:before { content: "\e075";}
+.vt-wall:before { content: "\e076";}
+.vt-task:before { content: "\e077";}
+.vt-magic:before { content: "\e078";}
+.vt-collectionposts:before { content: "\e079";}
+.vt-subject:before { content: "\e080";}
+.vt-myshare:before { content: "\e081";}
+.vt-profile:before { content: "\e082";}
+.vt-addfriend:before { content: "\e083";}
+.vt-editprofile:before { content: "\e084";}
+.vt-usergroup:before { content: "\e085";}
+.vt-heads:before { content: "\e086";}
+.vt-goldcoin:before { content: "\e087";}
+.vt-recharge:before { content: "\e088";}
+.vt-password:before { content: "\e089";}
+.vt-promotion:before { content: "\e090";}
+.vt-links:before { content: "\e091";}
+.vt-onoff:before { content: "\e092";}
+.vt-signout:before { content: "\e093";}
+.vt-setup:before { content: "\e094";}
+.vt-computer:before { content: "\e095";}
+.vt-hot:before { content: "\e096";}
+.vt-guide:before { content: "\e097";}
+.vt-relations:before { content: "\e098";}
+.vt-voice:before { content: "\e099";}
+.vt-warning:before { content: "\e100";}
+.vt-report:before { content: "\e101";}
+.vt-warnings:before { content: "\e102";}
+.vt-volumes:before { content: "\e103";}
+.vt-moderate:before { content: "\e104";}
+.vt-shield:before { content: "\e105";}
+.vt-video:before { content: "\e106";}
+.vt-light:before { content: "\e107";}
+.vt-reset:before { content: "\e108";}
+.vt-rotateleft:before { content: "\e109";}
+.vt-rotateright:before { content: "\e110";}
+.vt-scalex:before { content: "\e111";}
+.vt-scaley:before { content: "\e112";}
+.vt-move:before { content: "\e113";}
+.vt-bright:before { content: "\e114";}
+.vt-dark:before { content: "\e115";}
+.vt-bottom:before { content: "\e116";}
+.vt-qbl:before { content: "\e117";}
+.vt-qbr:before { content: "\e118";}
+.vt-qtl:before { content: "\e119";}
+.vt-qtr:before { content: "\e120";}
+.vt-privacy:before { content: "\e121";}
+.vt-footprint:before { content: "\e122";}
+.vt-time:before { content: "\e123";}
+.vt-examine:before { content: "\e124";}
+.vt-ask:before { content: "\e125";}
+.vt-answer:before { content: "\e126";}
+.vt-gift:before { content: "\e127";}
+.vt-mcplay:before { content: "\e128";}
+.vt-mcpause:before { content: "\e129";}
+.vt-mcprev:before { content: "\e130";}
+.vt-mcnext:before { content: "\e131";}
+.vt-mcprevlist:before { content: "\e132";}
+.vt-mcnextlist:before { content: "\e133";}
+.vt-find:before { content: "\e134";}
+.vt-classify:before { content: "\e135";}
+.vt-mcprevpg:before { content: "\e136";}
+.vt-mcnextpg:before { content: "\e137";}
+.vt-cut:before { content: "\e138";}
+.vt-rob:before { content: "\e139";}
+.vt-userioa:before { content: "\e140";}
+.vt-cloudmusic:before { content: "\e141";}
+.vt-reorder:before { content: "\e142";}
+.vt-downloads:before { content: "\e143";}
+.vt-votesub:before { content: "\e144";}
+.vt-usericon:before { content: "\e145";}
+.vt-credit:before { content: "\e146";}
+.vt-recommend:before { content: "\e147";}
+.vt-credits:before { content: "\e148";}
+.vt-musicloop:before { content: "\e149";}
+.vt-musicsingle:before { content: "\e150";}
+.vt-musicrandom:before { content: "\e151";}
+.vt-musicdownload:before { content: "\e152";}
+.vt-application:before { content: "\e153";}
+.vt-details:before { content: "\e154";}
+.vt-asking:before { content: "\e155";}
+.vt-thover:before { content: "\e156";}
+.vt-askover:before { content: "\e157";}
+.vt-thend:before { content: "\e158";}
+.vt-examineing:before { content: "\e159";}
+.vt-certificate:before { content: "\e160";}
+.vt-processing:before { content: "\e161";}
+.vt-askbubble:before { content: "\e162";}
+.vt-sqrwinner:before { content: "\e163";}
+.vt-oppwinner:before { content: "\e164";}
+.vt-draws:before { content: "\e165";}
+.vt-tradenew:before { content: "\e166";}
+.vt-tradeold:before { content: "\e167";}
+.vt-enterover:before { content: "\e168";}
+.vt-approval:before { content: "\e169";}
+.vt-crown:before { content: "\e170";}
+.vt-starsolid:before { content: "\e171";}
+.vt-handshake:before { content: "\e172";}
+.vt-menudown:before { content: "\e173";}
+.vt-delfriend:before { content: "\e174";}
+.vt-addedfriend:before { content: "\e175";}
+.vt-addfollow:before { content: "\e176";}
+.vt-cancelfollow:before { content: "\e177";}
+.vt-classification:before { content: "\e178";}
+.vt-scanning:before { content: "\e179";}
+.vt-toolbox:before { content: "\e180";}
+.vt-goback:before { content: "\e181";}
+.vt-qranking:before { content: "\e182";}
+.vt-vinfo:before { content: "\e183";}
+.vt-vsinfo:before { content: "\e184";}
+.vt-moon:before { content: "\e185";}
+.vt-sun:before { content: "\e186";}
+.vt-vvinfo:before { content: "\e187";}
+.vt-lranking:before { content: "\e188";}
